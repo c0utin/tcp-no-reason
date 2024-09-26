@@ -7,10 +7,12 @@
 - A Roadmap for Transmission Control Protocol (TCP) - [RFC7414](https://www.rfc-editor.org/rfc/rfc7414.html)
 - TUN/TAP Docs - [TUN/TAP](https://www.kernel.org/doc/Documentation/networking/tuntap.txt)
 - Crate TUN/TAP - [crate-docs](https://docs.rs/tun-tap/latest/tun_tap/)
+- Network byte order - [IBM](https://www.ibm.com/docs/en/zvm/7.3?topic=domains-network-byte-order-host-byte-order)
+- Protocol numbers - [IANA](https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml)
 
 ### Poggers
 
-- Tun setup test commit_hash - ce9e86c8c25cef9840e29707af155eabe8d5add9
+- Tun setup test commit_hash - ce9e86c8c25cef9840e29707af155eabe8d5add9 **errata(run.sh)**
 
 
 
