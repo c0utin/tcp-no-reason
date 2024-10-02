@@ -19,7 +19,8 @@
 
 - From RFC793
 
-  TCP Header Format
+```
+TCP Header Format
 
 
     0                   1                   2                   3
@@ -48,12 +49,14 @@
 
                                Figure 3.
 
+```
 
 This diagram -> **Better than sex**
 
+
 - From RFC 793
 
-
+```
 September 1981
                                            Transmission Control Protocol
                                                 Functional Specification
@@ -109,6 +112,7 @@ September 1981
                       TCP Connection State Diagram
                                Figure 6.
 
+```
 
 
 
