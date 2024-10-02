@@ -5,6 +5,13 @@ TUN_INTERFACE="tun0"
 TUN_IP="192.168.0.1/24"
 
 cargo b --release
+
+ext=$? 
+echo "$ext"
+if [[ $ext -ne 0 ]]; then
+		exit $ext
+fi
+
 sudo setcap cap_net_admin=eip $BINARY_PATH
 ./$BINARY_PATH &
 
